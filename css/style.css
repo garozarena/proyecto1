@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css?family=Spectral+SC');
+
+@font-face {
+	font-family: fuentePrueba;
+	src: url(../fonts/Lovely_Home.ttf);
+}
+
+header *{
+	/* display: block;
+	float: left; */
+}
+
+div#content{
+	border: 2px solid yellow;
+	width:800px;
+	margin: 20px;
+	padding: 50px;
+	background-color: #9dc87d;
+}
+
+body {
+	background-color: #b6d69e;
+	font-size: 12px;
+}
+
+.titulo {
+	font-family: fuentePrueba;
+}
+
+.contenido {
+	font-family: 'Spectral SC', serif;
+}
+
+h2 {
+	text-transform: uppercase;
+	text-align: center;
+	font-size: 1.5ex;
+}
+
+header, section, footer{
+	border: 1px solid red;
+	width:80%;
+	/* overflow: hidden; */
+	display:inline-block;
+}
+
+section p{
+	width: 60%;
+	float: left;
+}
+
+section img{
+	display: block;
+	width: 30%;
+	float: right;
+}
+
+section hr{
+	display: block;
+	margin: auto;
+	width:80%;
+}
+section iframe{
+	display:block;
+	width: 50%;
+	float: left;
+}
+
+footer ul{
+	
+	margin: 0px;
+	padding: 0px;
+}
+
+footer ul li{
+	list-style: none;
+	float: left;
+	width: 150px;
+	border: 1px solid blue;
+	text-align: center;
+}
+
+footer ul li a{
+	
+}
